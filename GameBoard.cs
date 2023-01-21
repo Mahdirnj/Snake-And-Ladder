@@ -16,5 +16,11 @@ namespace Snake_And_Ladder
         {
             InitializeComponent();
         }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form help = new Form();
+            help.ShowDialog();
+        }
     }
 }

@@ -132,6 +132,13 @@ namespace Snake_And_Ladder
             this.pictureBox100 = new System.Windows.Forms.PictureBox();
             this.pnlTable = new System.Windows.Forms.Panel();
             this.pnlScoreetc = new System.Windows.Forms.Panel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.authorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
@@ -233,6 +240,7 @@ namespace Snake_And_Ladder
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).BeginInit();
             this.pnlTable.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // FpanelGameFunc
@@ -1253,10 +1261,65 @@ namespace Snake_And_Ladder
             // 
             // pnlScoreetc
             // 
-            this.pnlScoreetc.Location = new System.Drawing.Point(6, 8);
+            this.pnlScoreetc.Location = new System.Drawing.Point(6, 27);
             this.pnlScoreetc.Name = "pnlScoreetc";
-            this.pnlScoreetc.Size = new System.Drawing.Size(571, 80);
+            this.pnlScoreetc.Size = new System.Drawing.Size(571, 61);
             this.pnlScoreetc.TabIndex = 102;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1068, 28);
+            this.menuStrip1.TabIndex = 103;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveToolStripMenuItem,
+            this.loadToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveToolStripMenuItem.Text = "Save";
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.loadToolStripMenuItem.Text = "Load";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.authorToolStripMenuItem});
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // authorToolStripMenuItem
+            // 
+            this.authorToolStripMenuItem.Name = "authorToolStripMenuItem";
+            this.authorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.authorToolStripMenuItem.Text = "Author";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // GameBoard
             // 
@@ -1266,6 +1329,8 @@ namespace Snake_And_Ladder
             this.Controls.Add(this.pnlScoreetc);
             this.Controls.Add(this.pnlTable);
             this.Controls.Add(this.FpanelGameFunc);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "GameBoard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
@@ -1368,6 +1433,8 @@ namespace Snake_And_Ladder
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).EndInit();
             this.pnlTable.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1478,5 +1545,12 @@ namespace Snake_And_Ladder
         private System.Windows.Forms.PictureBox pictureBox100;
         private System.Windows.Forms.Panel pnlTable;
         private System.Windows.Forms.Panel pnlScoreetc;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem authorToolStripMenuItem;
     }
 }

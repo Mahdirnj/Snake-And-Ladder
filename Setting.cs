@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace Snake_And_Ladder
 {
+   
+    
     public partial class Setting : Form
     {
+        
         public Setting()
         {
             InitializeComponent();
@@ -39,6 +42,13 @@ namespace Snake_And_Ladder
                 txtPlayer2.Show();
                 lblPlayer2.Show();
             }
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            GameBoard f1 = new GameBoard();
+            f1.Show();
+            this.Hide();
         }
     }
 }
