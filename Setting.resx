@@ -145,7 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnQuit.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="btnPlay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -178,10 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="chkAI.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
-    <value>Button</value>
+    <value>6</value>
   </data>
   <data name="chkAI.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -189,17 +186,26 @@
   <data name="chkAI.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="chkAI.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="chkAI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold, Italic</value>
+  </data>
   <data name="chkAI.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 332</value>
+    <value>207, 218</value>
   </data>
   <data name="chkAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 27</value>
+    <value>124, 24</value>
   </data>
   <data name="chkAI.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="chkAI.Text" xml:space="preserve">
     <value>Wanna AI ?</value>
+  </data>
+  <data name="chkAI.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;chkAI.Name" xml:space="preserve">
     <value>chkAI</value>
@@ -211,7 +217,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkAI.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lblPlayer1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -220,7 +226,7 @@
     <value>Book Antiqua, 15pt, style=Bold, Italic</value>
   </data>
   <data name="lblPlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 96</value>
+    <value>406, 96</value>
   </data>
   <data name="lblPlayer1.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 32</value>
@@ -241,10 +247,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblPlayer1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="txtPlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 104</value>
+    <value>182, 96</value>
   </data>
   <data name="txtPlayer1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -262,10 +268,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtPlayer1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="txtPlayer2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 147</value>
+    <value>182, 147</value>
   </data>
   <data name="txtPlayer2.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
@@ -283,7 +289,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtPlayer2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="lblPlayer2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -295,7 +301,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblPlayer2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 140</value>
+    <value>406, 137</value>
   </data>
   <data name="lblPlayer2.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 32</value>
@@ -316,6 +322,39 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblPlayer2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Gabriola, 13pt, style=Bold, Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 21</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 40</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Welcome to the snake and ladder</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -328,7 +367,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>807, 410</value>
+    <value>733, 373</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3373,7 +3412,7 @@
 </value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>Manual</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Setting</value>

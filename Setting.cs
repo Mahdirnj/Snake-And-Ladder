@@ -21,5 +21,24 @@ namespace Snake_And_Ladder
         {
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkAI_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkAI.Checked)
+            {
+                txtPlayer2.Hide();
+                lblPlayer2.Hide();
+            }
+            else
+            {
+                txtPlayer2.Show();
+                lblPlayer2.Show();
+            }
+        }
     }
 }
