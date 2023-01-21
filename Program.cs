@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Snake_And_Ladder
 {
     static class Program
@@ -13,7 +14,7 @@ namespace Snake_And_Ladder
         /// </summary>
         [STAThread]
         static void Main()
-        {
+        {           
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Setting());

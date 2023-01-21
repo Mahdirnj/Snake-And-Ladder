@@ -57,6 +57,7 @@ namespace Snake_And_Ladder
             this.btnPlay.FlatAppearance.BorderSize = 0;
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // chkAI
             // 
