@@ -10,17 +10,33 @@ using System.Windows.Forms;
 
 namespace Snake_And_Ladder
 {
+    
     public partial class GameBoard : Form
     {
+       
+       
         public GameBoard()
         {
             InitializeComponent();
+            lblPlayer1Name.Text = GameLogic.Player1Name;
+            if (GameLogic.AI == true)
+            {
+                lblPlayer2Name.Text = "AI";
+            }
+            else
+            {
+                lblPlayer2Name.Text = GameLogic.Player2Name;
+            }
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form help = new Form();
-            help.ShowDialog();
+            MessageBox.Show("Press roll button to do a dice roll and \nfollow the game rules.");
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
