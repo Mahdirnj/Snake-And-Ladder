@@ -37,6 +37,7 @@ namespace Snake_And_Ladder
             this.txtPlayer1 = new System.Windows.Forms.TextBox();
             this.txtPlayer2 = new System.Windows.Forms.TextBox();
             this.lblPlayer2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnQuit
@@ -60,10 +61,12 @@ namespace Snake_And_Ladder
             // chkAI
             // 
             resources.ApplyResources(this.chkAI, "chkAI");
-            this.chkAI.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.chkAI.BackColor = System.Drawing.Color.Transparent;
             this.chkAI.FlatAppearance.BorderSize = 0;
+            this.chkAI.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.chkAI.Name = "chkAI";
             this.chkAI.UseVisualStyleBackColor = false;
+            this.chkAI.CheckedChanged += new System.EventHandler(this.chkAI_CheckedChanged);
             // 
             // lblPlayer1
             // 
@@ -93,12 +96,21 @@ namespace Snake_And_Ladder
             this.lblPlayer2.ForeColor = System.Drawing.Color.LawnGreen;
             this.lblPlayer2.Name = "lblPlayer2";
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.ForeColor = System.Drawing.Color.Beige;
+            this.label1.Name = "label1";
+            // 
             // Setting
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::Snake_And_Ladder.Properties.Resources.snake_ladder;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblPlayer2);
             this.Controls.Add(this.txtPlayer2);
             this.Controls.Add(this.txtPlayer1);
@@ -122,6 +134,7 @@ namespace Snake_And_Ladder
         private System.Windows.Forms.TextBox txtPlayer1;
         private System.Windows.Forms.TextBox txtPlayer2;
         private System.Windows.Forms.Label lblPlayer2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
