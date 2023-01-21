@@ -29,7 +29,6 @@ namespace Snake_And_Ladder
         /// </summary>
         private void InitializeComponent()
         {
-            this.FpanelGameFunc = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
@@ -132,13 +131,21 @@ namespace Snake_And_Ladder
             this.pictureBox100 = new System.Windows.Forms.PictureBox();
             this.pnlTable = new System.Windows.Forms.Panel();
             this.pnlScoreetc = new System.Windows.Forms.Panel();
+            this.lblPlayer1turn = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.authorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.lblPlayer2turn = new System.Windows.Forms.Label();
+            this.lblDiceinfo = new System.Windows.Forms.Label();
+            this.lblDiceNumber = new System.Windows.Forms.Label();
+            this.lblPlayer1Name = new System.Windows.Forms.Label();
+            this.lblPlayer2Name = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
@@ -240,15 +247,10 @@ namespace Snake_And_Ladder
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).BeginInit();
             this.pnlTable.SuspendLayout();
+            this.pnlScoreetc.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // FpanelGameFunc
-            // 
-            this.FpanelGameFunc.Location = new System.Drawing.Point(598, 13);
-            this.FpanelGameFunc.Name = "FpanelGameFunc";
-            this.FpanelGameFunc.Size = new System.Drawing.Size(458, 633);
-            this.FpanelGameFunc.TabIndex = 20;
             // 
             // pictureBox30
             // 
@@ -1261,10 +1263,24 @@ namespace Snake_And_Ladder
             // 
             // pnlScoreetc
             // 
+            this.pnlScoreetc.Controls.Add(this.lblDiceNumber);
+            this.pnlScoreetc.Controls.Add(this.lblDiceinfo);
+            this.pnlScoreetc.Controls.Add(this.lblPlayer2turn);
+            this.pnlScoreetc.Controls.Add(this.lblPlayer1turn);
             this.pnlScoreetc.Location = new System.Drawing.Point(6, 27);
             this.pnlScoreetc.Name = "pnlScoreetc";
             this.pnlScoreetc.Size = new System.Drawing.Size(571, 61);
             this.pnlScoreetc.TabIndex = 102;
+            // 
+            // lblPlayer1turn
+            // 
+            this.lblPlayer1turn.AutoSize = true;
+            this.lblPlayer1turn.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayer1turn.Location = new System.Drawing.Point(452, 16);
+            this.lblPlayer1turn.Name = "lblPlayer1turn";
+            this.lblPlayer1turn.Size = new System.Drawing.Size(39, 27);
+            this.lblPlayer1turn.TabIndex = 0;
+            this.lblPlayer1turn.Text = "195";
             // 
             // menuStrip1
             // 
@@ -1275,7 +1291,7 @@ namespace Snake_And_Ladder
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1068, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1068, 30);
             this.menuStrip1.TabIndex = 103;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1285,50 +1301,122 @@ namespace Snake_And_Ladder
             this.saveToolStripMenuItem,
             this.loadToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(125, 26);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(125, 26);
             this.loadToolStripMenuItem.Text = "Load";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 26);
+            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.authorToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // authorToolStripMenuItem
             // 
             this.authorToolStripMenuItem.Name = "authorToolStripMenuItem";
-            this.authorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.authorToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.authorToolStripMenuItem.Text = "Author";
             // 
-            // helpToolStripMenuItem
+            // panel1
             // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
-            this.helpToolStripMenuItem.Text = "Help";
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            this.panel1.Controls.Add(this.lblPlayer2Name);
+            this.panel1.Controls.Add(this.lblPlayer1Name);
+            this.panel1.Controls.Add(this.btnStart);
+            this.panel1.Location = new System.Drawing.Point(591, 32);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(466, 617);
+            this.panel1.TabIndex = 104;
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(191, 244);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // lblPlayer2turn
+            // 
+            this.lblPlayer2turn.AutoSize = true;
+            this.lblPlayer2turn.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayer2turn.Location = new System.Drawing.Point(60, 16);
+            this.lblPlayer2turn.Name = "lblPlayer2turn";
+            this.lblPlayer2turn.Size = new System.Drawing.Size(39, 27);
+            this.lblPlayer2turn.TabIndex = 1;
+            this.lblPlayer2turn.Text = "195";
+            // 
+            // lblDiceinfo
+            // 
+            this.lblDiceinfo.AutoSize = true;
+            this.lblDiceinfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiceinfo.Location = new System.Drawing.Point(253, 5);
+            this.lblDiceinfo.Name = "lblDiceinfo";
+            this.lblDiceinfo.Size = new System.Drawing.Size(54, 20);
+            this.lblDiceinfo.TabIndex = 2;
+            this.lblDiceinfo.Text = "Dice :";
+            // 
+            // lblDiceNumber
+            // 
+            this.lblDiceNumber.AutoSize = true;
+            this.lblDiceNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lblDiceNumber.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiceNumber.Location = new System.Drawing.Point(266, 34);
+            this.lblDiceNumber.Name = "lblDiceNumber";
+            this.lblDiceNumber.Size = new System.Drawing.Size(23, 27);
+            this.lblDiceNumber.TabIndex = 3;
+            this.lblDiceNumber.Text = "0";
+            // 
+            // lblPlayer1Name
+            // 
+            this.lblPlayer1Name.AutoSize = true;
+            this.lblPlayer1Name.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayer1Name.Location = new System.Drawing.Point(34, 29);
+            this.lblPlayer1Name.Name = "lblPlayer1Name";
+            this.lblPlayer1Name.Size = new System.Drawing.Size(48, 33);
+            this.lblPlayer1Name.TabIndex = 1;
+            this.lblPlayer1Name.Text = "195";
+            // 
+            // lblPlayer2Name
+            // 
+            this.lblPlayer2Name.AutoSize = true;
+            this.lblPlayer2Name.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayer2Name.Location = new System.Drawing.Point(362, 29);
+            this.lblPlayer2Name.Name = "lblPlayer2Name";
+            this.lblPlayer2Name.Size = new System.Drawing.Size(48, 33);
+            this.lblPlayer2Name.TabIndex = 2;
+            this.lblPlayer2Name.Text = "195";
             // 
             // GameBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1068, 658);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlScoreetc);
             this.Controls.Add(this.pnlTable);
-            this.Controls.Add(this.FpanelGameFunc);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GameBoard";
@@ -1433,8 +1521,12 @@ namespace Snake_And_Ladder
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).EndInit();
             this.pnlTable.ResumeLayout(false);
+            this.pnlScoreetc.ResumeLayout(false);
+            this.pnlScoreetc.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1462,7 +1554,6 @@ namespace Snake_And_Ladder
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.FlowLayoutPanel FpanelGameFunc;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.PictureBox pictureBox23;
@@ -1552,5 +1643,13 @@ namespace Snake_And_Ladder
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem authorToolStripMenuItem;
+        private System.Windows.Forms.Label lblPlayer1turn;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Label lblPlayer2turn;
+        private System.Windows.Forms.Label lblDiceNumber;
+        private System.Windows.Forms.Label lblDiceinfo;
+        private System.Windows.Forms.Label lblPlayer2Name;
+        private System.Windows.Forms.Label lblPlayer1Name;
     }
 }

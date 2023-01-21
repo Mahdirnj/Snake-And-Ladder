@@ -9,7 +9,7 @@ namespace Snake_And_Ladder
     class GameLogic
     {
         public static int PlayerPosition , RandomNum;
-        public static bool Player1turn , Win ;
-        
+        public static bool Player1turn , Win ,AI = false ;
+        public static string Player1Name , Player2Name;
     }
 }
