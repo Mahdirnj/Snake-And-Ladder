@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Snake_And_Ladder
 {
-    public partial class Form1 : Form
+    public partial class Setting : Form
     {
-        public Form1()
+        public Setting()
         {
             InitializeComponent();
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
