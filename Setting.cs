@@ -14,20 +14,20 @@ namespace Snake_And_Ladder
     
     public partial class Setting : Form
     {
-        
         public Setting()
         {
             InitializeComponent();
         }
-
+        
         private void btnQuit_Click(object sender, EventArgs e)
         {
             this.Close();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void chkAI_CheckedChanged(object sender, EventArgs e)
@@ -49,6 +49,11 @@ namespace Snake_And_Ladder
             GameBoard f1 = new GameBoard();
             f1.Show();
             this.Hide();
+        }
+
+        private void Setting_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
