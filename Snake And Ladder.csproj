@@ -429,5 +429,17 @@
   <ItemGroup>
     <None Include="Resources\player.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25746-6-play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14-144125_play-button-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_banner2_new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\910.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
