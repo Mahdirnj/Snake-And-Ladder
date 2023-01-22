@@ -33,10 +33,18 @@ namespace Snake_And_Ladder
         {
             MessageBox.Show("Press roll button to do a dice roll and \nfollow the game rules.");
         }
-
-        private void btnStart_Click(object sender, EventArgs e)
+        private void pictPlay_Click(object sender, EventArgs e)
         {
+            pictPlay.Hide();
+            pnlTable.Show();
+            lblPlayer1Name.Show();
+            lblPlayer2Name.Show();
             
+        }
+
+        private void btnGameQuit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

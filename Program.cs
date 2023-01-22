@@ -20,7 +20,7 @@ namespace Snake_And_Ladder
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Setting());
+            Application.Run(new GameBoard());
         }
     }
 }

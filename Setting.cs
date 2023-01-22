@@ -46,7 +46,6 @@ namespace Snake_And_Ladder
             
             if (chkAI.Checked)
             {
-                GameLogic.Player2Name = "AI";
                 GameLogic.AI = true;
             }
             // Conditions below
@@ -54,7 +53,7 @@ namespace Snake_And_Ladder
             {
                 MessageBox.Show("Name needed! ");
             }
-            else if (txtPlayer1.Text == "" && GameLogic.AI == false)
+            else if (txtPlayer2.Text == "" && GameLogic.AI == false)
             {
                 GameLogic.AI = true;
             }
@@ -62,6 +61,7 @@ namespace Snake_And_Ladder
             {
                 GameLogic.Player2Name = txtPlayer2.Text;
                 GameBoard f1 = new GameBoard();
+                this.Hide();
                 f1.Show();
             }
             
