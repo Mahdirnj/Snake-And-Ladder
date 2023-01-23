@@ -96,9 +96,7 @@
   <ItemGroup>
     <None Include="Resources\snake-ladder.jpeg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Blured.jpeg" />
   </ItemGroup>
@@ -440,6 +438,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\910.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+    <Content Include="Resources\Images\dice 1.jpg" />
+    <Content Include="Resources\Images\dice 2.jpg" />
+    <Content Include="Resources\Images\dice 3.jpg" />
+    <Content Include="Resources\Images\dice 4.jpg" />
+    <Content Include="Resources\Images\Dice 5.jpg" />
+    <Content Include="Resources\Images\Dice 6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
