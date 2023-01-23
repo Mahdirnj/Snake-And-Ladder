@@ -133,6 +133,16 @@ namespace Snake_And_Ladder.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _14_144125_play_button_icon {
+            get {
+                object obj = ResourceManager.GetObject("14-144125_play-button-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _15 {
             get {
                 object obj = ResourceManager.GetObject("15", resourceCulture);
@@ -296,6 +306,16 @@ namespace Snake_And_Ladder.Properties {
         internal static System.Drawing.Bitmap _251 {
             get {
                 object obj = ResourceManager.GetObject("251", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _25746_6_play_button {
+            get {
+                object obj = ResourceManager.GetObject("25746-6-play-button", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1053,6 +1073,16 @@ namespace Snake_And_Ladder.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _910 {
+            get {
+                object obj = ResourceManager.GetObject("910", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _92 {
             get {
                 object obj = ResourceManager.GetObject("92", resourceCulture);
@@ -1136,6 +1166,26 @@ namespace Snake_And_Ladder.Properties {
         internal static System.Drawing.Bitmap Blured {
             get {
                 object obj = ResourceManager.GetObject("Blured", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_banner2_new {
+            get {
+                object obj = ResourceManager.GetObject("home_banner2_new", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

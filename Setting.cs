@@ -14,20 +14,14 @@ namespace Snake_And_Ladder
     
     public partial class Setting : Form
     {
-        
         public Setting()
         {
             InitializeComponent();
         }
-
+        
         private void btnQuit_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            this.Close();  
         }
 
         private void chkAI_CheckedChanged(object sender, EventArgs e)
@@ -36,6 +30,7 @@ namespace Snake_And_Ladder
             {
                 txtPlayer2.Hide();
                 lblPlayer2.Hide();
+                GameLogic.AI = true;
             }
             else
             {
@@ -46,9 +41,30 @@ namespace Snake_And_Ladder
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            GameBoard f1 = new GameBoard();
-            f1.Show();
-            this.Hide();
+            // Getting text box info and save it
+            GameLogic.Player1Name = txtPlayer1.Text;
+            
+            if (chkAI.Checked)
+            {
+                GameLogic.AI = true;
+            }
+            // Conditions below
+            if (txtPlayer1.Text == "" )
+            {
+                MessageBox.Show("Name needed! ");
+            }
+            else if (txtPlayer2.Text == "" && GameLogic.AI == false)
+            {
+                GameLogic.AI = true;
+            }
+            else
+            {
+                GameLogic.Player2Name = txtPlayer2.Text;
+                GameBoard f1 = new GameBoard();
+                this.Hide();
+                f1.Show();
+            }
+            
         }
     }
 }

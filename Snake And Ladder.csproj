@@ -52,6 +52,7 @@
     <Compile Include="GameBoard.Designer.cs">
       <DependentUpon>GameBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameLogic.cs" />
     <Compile Include="Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,9 +96,7 @@
   <ItemGroup>
     <None Include="Resources\snake-ladder.jpeg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Blured.jpeg" />
   </ItemGroup>
@@ -427,6 +426,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\player.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25746-6-play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14-144125_play-button-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_banner2_new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\910.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+    <Content Include="Resources\Images\dice 1.jpg" />
+    <Content Include="Resources\Images\dice 2.jpg" />
+    <Content Include="Resources\Images\dice 3.jpg" />
+    <Content Include="Resources\Images\dice 4.jpg" />
+    <Content Include="Resources\Images\Dice 5.jpg" />
+    <Content Include="Resources\Images\Dice 6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
