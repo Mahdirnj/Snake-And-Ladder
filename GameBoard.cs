@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,9 +15,27 @@ namespace Snake_And_Ladder
     public partial class GameBoard : Form
     { 
         // Var of movements
-        public int Movecount , CurrentPosition;
+        public int Movecount , Player1pos , Player2pos;
         int X1, Y1 , X2 , Y2;
+        public bool win;
 
+
+        public void BuildBoardpos()
+        {
+            int[] x = new int[10];
+            int[] y = new int[10];
+            int[,] Gamepos = new int[10 , 10];
+            x[0] = 330;
+            y[0] = 540;
+            for (int i = 1; i < x.Length; i++)
+            {
+                x[i] = x[i-1] + 56;
+            }
+            for (int i = 1; i < y.Length; i++)
+            {
+                y[i] = y[i-1] - 52;
+            }
+        }
 
         public int PositionMove(int Move)
         {
@@ -26,7 +45,7 @@ namespace Snake_And_Ladder
             Y2 = pictEnemy.Location.Y;
             if (GameLogic.Player1turn == true)
             {
-
+           //     Thread.Sleep(60);
                 GameLogic.Player1turn = false;
             }
             else
@@ -34,6 +53,11 @@ namespace Snake_And_Ladder
                 GameLogic.Player1turn = true;
             }
             return 0;
+        }
+
+        private void BtnDiceRoll_KeyDown(object sender, KeyEventArgs e)
+        {
+            Diceroll();
         }
 
         // Void for a dice logic
@@ -77,6 +101,7 @@ namespace Snake_And_Ladder
             if (GameLogic.AI == true)
             {
                 lblPlayer2Name.Text = "AI";
+                lblPlayer2turn.Text = "AI turns";
             }
             else
             {
