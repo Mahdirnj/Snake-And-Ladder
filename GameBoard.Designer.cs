@@ -1795,13 +1795,12 @@ namespace Snake_And_Ladder
             this.BtnDiceRoll.Text = "Roll";
             this.BtnDiceRoll.UseVisualStyleBackColor = false;
             this.BtnDiceRoll.Click += new System.EventHandler(this.BtnDiceRoll_Click);
-            this.BtnDiceRoll.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BtnDiceRoll_KeyDown);
             // 
             // pictPlayer
             // 
             this.pictPlayer.BackColor = System.Drawing.Color.Transparent;
             this.pictPlayer.Image = global::Snake_And_Ladder.Properties.Resources.player;
-            this.pictPlayer.Location = new System.Drawing.Point(388, 548);
+            this.pictPlayer.Location = new System.Drawing.Point(331, 543);
             this.pictPlayer.Margin = new System.Windows.Forms.Padding(0);
             this.pictPlayer.Name = "pictPlayer";
             this.pictPlayer.Size = new System.Drawing.Size(24, 29);
@@ -1813,7 +1812,7 @@ namespace Snake_And_Ladder
             // 
             this.pictEnemy.BackColor = System.Drawing.Color.Transparent;
             this.pictEnemy.Image = global::Snake_And_Ladder.Properties.Resources.opponent;
-            this.pictEnemy.Location = new System.Drawing.Point(243, 410);
+            this.pictEnemy.Location = new System.Drawing.Point(835, 543);
             this.pictEnemy.Name = "pictEnemy";
             this.pictEnemy.Size = new System.Drawing.Size(24, 29);
             this.pictEnemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

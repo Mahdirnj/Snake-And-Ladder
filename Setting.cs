@@ -14,9 +14,13 @@ namespace Snake_And_Ladder
     
     public partial class Setting : Form
     {
+        playerInfo player1;
+        playerInfo player2;
         public Setting()
         {
             InitializeComponent();
+            player1 = new playerInfo();
+            player2 = new playerInfo();
         }
         
         private void btnQuit_Click(object sender, EventArgs e)
@@ -60,7 +64,8 @@ namespace Snake_And_Ladder
             else
             {
                 GameLogic.Player2Name = txtPlayer2.Text;
-                GameBoard f1 = new GameBoard();
+                player1.playerTurn = true;
+                GameBoard f1 = new GameBoard(player1, player2);
                 this.Hide();
                 f1.Show();
             }
