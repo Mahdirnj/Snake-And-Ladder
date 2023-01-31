@@ -29,6 +29,7 @@ namespace Snake_And_Ladder
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameBoard));
             this.pnlScoreetc = new System.Windows.Forms.Panel();
             this.lblPlayer2turn = new System.Windows.Forms.Label();
             this.lblPlayer1turn = new System.Windows.Forms.Label();
@@ -385,6 +386,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox100.Image = global::Snake_And_Ladder.Properties.Resources._99;
             this.pictureBox100.Location = new System.Drawing.Point(314, 31);
+            this.pictureBox100.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox100.Name = "pictureBox100";
             this.pictureBox100.Size = new System.Drawing.Size(56, 56);
             this.pictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -398,6 +400,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox99.Image = global::Snake_And_Ladder.Properties.Resources._98;
             this.pictureBox99.Location = new System.Drawing.Point(370, 31);
+            this.pictureBox99.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox99.Name = "pictureBox99";
             this.pictureBox99.Size = new System.Drawing.Size(56, 56);
             this.pictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -411,6 +414,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox98.Image = global::Snake_And_Ladder.Properties.Resources._97;
             this.pictureBox98.Location = new System.Drawing.Point(426, 31);
+            this.pictureBox98.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox98.Name = "pictureBox98";
             this.pictureBox98.Size = new System.Drawing.Size(56, 56);
             this.pictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -424,6 +428,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox97.Image = global::Snake_And_Ladder.Properties.Resources._96;
             this.pictureBox97.Location = new System.Drawing.Point(482, 31);
+            this.pictureBox97.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox97.Name = "pictureBox97";
             this.pictureBox97.Size = new System.Drawing.Size(56, 56);
             this.pictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -437,6 +442,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox96.Image = global::Snake_And_Ladder.Properties.Resources._95;
             this.pictureBox96.Location = new System.Drawing.Point(538, 31);
+            this.pictureBox96.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox96.Name = "pictureBox96";
             this.pictureBox96.Size = new System.Drawing.Size(56, 56);
             this.pictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -450,6 +456,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox95.Image = global::Snake_And_Ladder.Properties.Resources._94;
             this.pictureBox95.Location = new System.Drawing.Point(594, 31);
+            this.pictureBox95.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox95.Name = "pictureBox95";
             this.pictureBox95.Size = new System.Drawing.Size(56, 56);
             this.pictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -463,6 +470,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox94.Image = global::Snake_And_Ladder.Properties.Resources._93;
             this.pictureBox94.Location = new System.Drawing.Point(650, 31);
+            this.pictureBox94.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox94.Name = "pictureBox94";
             this.pictureBox94.Size = new System.Drawing.Size(56, 56);
             this.pictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -476,6 +484,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox93.Image = global::Snake_And_Ladder.Properties.Resources._92;
             this.pictureBox93.Location = new System.Drawing.Point(706, 31);
+            this.pictureBox93.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox93.Name = "pictureBox93";
             this.pictureBox93.Size = new System.Drawing.Size(56, 56);
             this.pictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -489,6 +498,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox92.Image = global::Snake_And_Ladder.Properties.Resources._91;
             this.pictureBox92.Location = new System.Drawing.Point(762, 31);
+            this.pictureBox92.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox92.Name = "pictureBox92";
             this.pictureBox92.Size = new System.Drawing.Size(56, 56);
             this.pictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -502,6 +512,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox90.Image = global::Snake_And_Ladder.Properties.Resources._80;
             this.pictureBox90.Location = new System.Drawing.Point(314, 87);
+            this.pictureBox90.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox90.Name = "pictureBox90";
             this.pictureBox90.Size = new System.Drawing.Size(56, 56);
             this.pictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -515,6 +526,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox89.Image = global::Snake_And_Ladder.Properties.Resources._81;
             this.pictureBox89.Location = new System.Drawing.Point(370, 87);
+            this.pictureBox89.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox89.Name = "pictureBox89";
             this.pictureBox89.Size = new System.Drawing.Size(56, 56);
             this.pictureBox89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -528,6 +540,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox88.Image = global::Snake_And_Ladder.Properties.Resources._82;
             this.pictureBox88.Location = new System.Drawing.Point(426, 87);
+            this.pictureBox88.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox88.Name = "pictureBox88";
             this.pictureBox88.Size = new System.Drawing.Size(56, 56);
             this.pictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -541,6 +554,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox87.Image = global::Snake_And_Ladder.Properties.Resources._83;
             this.pictureBox87.Location = new System.Drawing.Point(482, 87);
+            this.pictureBox87.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox87.Name = "pictureBox87";
             this.pictureBox87.Size = new System.Drawing.Size(56, 56);
             this.pictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -554,6 +568,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox86.Image = global::Snake_And_Ladder.Properties.Resources._84;
             this.pictureBox86.Location = new System.Drawing.Point(538, 87);
+            this.pictureBox86.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox86.Name = "pictureBox86";
             this.pictureBox86.Size = new System.Drawing.Size(56, 56);
             this.pictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -567,6 +582,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox85.Image = global::Snake_And_Ladder.Properties.Resources._85;
             this.pictureBox85.Location = new System.Drawing.Point(594, 87);
+            this.pictureBox85.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox85.Name = "pictureBox85";
             this.pictureBox85.Size = new System.Drawing.Size(56, 56);
             this.pictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -580,6 +596,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox84.Image = global::Snake_And_Ladder.Properties.Resources._86;
             this.pictureBox84.Location = new System.Drawing.Point(650, 87);
+            this.pictureBox84.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox84.Name = "pictureBox84";
             this.pictureBox84.Size = new System.Drawing.Size(56, 56);
             this.pictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -593,6 +610,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox83.Image = global::Snake_And_Ladder.Properties.Resources._87;
             this.pictureBox83.Location = new System.Drawing.Point(706, 87);
+            this.pictureBox83.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox83.Name = "pictureBox83";
             this.pictureBox83.Size = new System.Drawing.Size(56, 56);
             this.pictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -606,6 +624,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox82.Image = global::Snake_And_Ladder.Properties.Resources._88;
             this.pictureBox82.Location = new System.Drawing.Point(762, 87);
+            this.pictureBox82.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox82.Name = "pictureBox82";
             this.pictureBox82.Size = new System.Drawing.Size(56, 56);
             this.pictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -619,6 +638,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox80.Image = global::Snake_And_Ladder.Properties.Resources._79;
             this.pictureBox80.Location = new System.Drawing.Point(314, 143);
+            this.pictureBox80.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox80.Name = "pictureBox80";
             this.pictureBox80.Size = new System.Drawing.Size(56, 56);
             this.pictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -632,6 +652,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox79.Image = global::Snake_And_Ladder.Properties.Resources._78;
             this.pictureBox79.Location = new System.Drawing.Point(370, 143);
+            this.pictureBox79.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox79.Name = "pictureBox79";
             this.pictureBox79.Size = new System.Drawing.Size(56, 56);
             this.pictureBox79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -645,6 +666,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox78.Image = global::Snake_And_Ladder.Properties.Resources._77;
             this.pictureBox78.Location = new System.Drawing.Point(426, 143);
+            this.pictureBox78.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox78.Name = "pictureBox78";
             this.pictureBox78.Size = new System.Drawing.Size(56, 56);
             this.pictureBox78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -658,6 +680,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox77.Image = global::Snake_And_Ladder.Properties.Resources._76;
             this.pictureBox77.Location = new System.Drawing.Point(482, 143);
+            this.pictureBox77.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox77.Name = "pictureBox77";
             this.pictureBox77.Size = new System.Drawing.Size(56, 56);
             this.pictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -671,6 +694,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox76.Image = global::Snake_And_Ladder.Properties.Resources._75;
             this.pictureBox76.Location = new System.Drawing.Point(538, 143);
+            this.pictureBox76.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox76.Name = "pictureBox76";
             this.pictureBox76.Size = new System.Drawing.Size(56, 56);
             this.pictureBox76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -684,6 +708,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox75.Image = global::Snake_And_Ladder.Properties.Resources._74;
             this.pictureBox75.Location = new System.Drawing.Point(594, 143);
+            this.pictureBox75.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox75.Name = "pictureBox75";
             this.pictureBox75.Size = new System.Drawing.Size(56, 56);
             this.pictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -697,6 +722,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox74.Image = global::Snake_And_Ladder.Properties.Resources._73;
             this.pictureBox74.Location = new System.Drawing.Point(650, 143);
+            this.pictureBox74.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox74.Name = "pictureBox74";
             this.pictureBox74.Size = new System.Drawing.Size(56, 56);
             this.pictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -710,6 +736,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox73.Image = global::Snake_And_Ladder.Properties.Resources._72;
             this.pictureBox73.Location = new System.Drawing.Point(706, 143);
+            this.pictureBox73.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox73.Name = "pictureBox73";
             this.pictureBox73.Size = new System.Drawing.Size(56, 56);
             this.pictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -723,6 +750,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox72.Image = global::Snake_And_Ladder.Properties.Resources._71;
             this.pictureBox72.Location = new System.Drawing.Point(762, 143);
+            this.pictureBox72.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox72.Name = "pictureBox72";
             this.pictureBox72.Size = new System.Drawing.Size(56, 56);
             this.pictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -736,6 +764,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox69.Image = global::Snake_And_Ladder.Properties.Resources._68;
             this.pictureBox69.Location = new System.Drawing.Point(762, 199);
+            this.pictureBox69.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox69.Name = "pictureBox69";
             this.pictureBox69.Size = new System.Drawing.Size(56, 56);
             this.pictureBox69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -749,6 +778,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox68.Image = global::Snake_And_Ladder.Properties.Resources._67;
             this.pictureBox68.Location = new System.Drawing.Point(706, 199);
+            this.pictureBox68.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox68.Name = "pictureBox68";
             this.pictureBox68.Size = new System.Drawing.Size(56, 56);
             this.pictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -762,6 +792,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox67.Image = global::Snake_And_Ladder.Properties.Resources._66;
             this.pictureBox67.Location = new System.Drawing.Point(650, 199);
+            this.pictureBox67.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(56, 56);
             this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -775,6 +806,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox66.Image = global::Snake_And_Ladder.Properties.Resources._65;
             this.pictureBox66.Location = new System.Drawing.Point(594, 199);
+            this.pictureBox66.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(56, 56);
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -788,6 +820,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox65.Image = global::Snake_And_Ladder.Properties.Resources._64;
             this.pictureBox65.Location = new System.Drawing.Point(538, 199);
+            this.pictureBox65.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(56, 56);
             this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -801,6 +834,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox64.Image = global::Snake_And_Ladder.Properties.Resources._63;
             this.pictureBox64.Location = new System.Drawing.Point(482, 199);
+            this.pictureBox64.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(56, 56);
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -814,6 +848,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox63.Image = global::Snake_And_Ladder.Properties.Resources._62;
             this.pictureBox63.Location = new System.Drawing.Point(426, 199);
+            this.pictureBox63.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(56, 56);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -827,6 +862,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox62.Image = global::Snake_And_Ladder.Properties.Resources._61;
             this.pictureBox62.Location = new System.Drawing.Point(370, 199);
+            this.pictureBox62.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(56, 56);
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -840,6 +876,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox61.Image = global::Snake_And_Ladder.Properties.Resources._60;
             this.pictureBox61.Location = new System.Drawing.Point(314, 199);
+            this.pictureBox61.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(56, 56);
             this.pictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -853,6 +890,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox60.Image = global::Snake_And_Ladder.Properties.Resources._59;
             this.pictureBox60.Location = new System.Drawing.Point(314, 255);
+            this.pictureBox60.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(56, 56);
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -866,6 +904,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox59.Image = global::Snake_And_Ladder.Properties.Resources._58;
             this.pictureBox59.Location = new System.Drawing.Point(370, 255);
+            this.pictureBox59.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox59.Name = "pictureBox59";
             this.pictureBox59.Size = new System.Drawing.Size(56, 56);
             this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -879,6 +918,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox58.Image = global::Snake_And_Ladder.Properties.Resources._57;
             this.pictureBox58.Location = new System.Drawing.Point(426, 255);
+            this.pictureBox58.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox58.Name = "pictureBox58";
             this.pictureBox58.Size = new System.Drawing.Size(56, 56);
             this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -892,6 +932,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox57.Image = global::Snake_And_Ladder.Properties.Resources._56;
             this.pictureBox57.Location = new System.Drawing.Point(482, 255);
+            this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox57.Name = "pictureBox57";
             this.pictureBox57.Size = new System.Drawing.Size(56, 56);
             this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -905,6 +946,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox56.Image = global::Snake_And_Ladder.Properties.Resources._55;
             this.pictureBox56.Location = new System.Drawing.Point(538, 255);
+            this.pictureBox56.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox56.Name = "pictureBox56";
             this.pictureBox56.Size = new System.Drawing.Size(56, 56);
             this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -918,6 +960,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox55.Image = global::Snake_And_Ladder.Properties.Resources._54;
             this.pictureBox55.Location = new System.Drawing.Point(594, 255);
+            this.pictureBox55.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox55.Name = "pictureBox55";
             this.pictureBox55.Size = new System.Drawing.Size(56, 56);
             this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -931,6 +974,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox54.Image = global::Snake_And_Ladder.Properties.Resources._53;
             this.pictureBox54.Location = new System.Drawing.Point(650, 255);
+            this.pictureBox54.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(56, 56);
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -944,6 +988,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox53.Image = global::Snake_And_Ladder.Properties.Resources._52;
             this.pictureBox53.Location = new System.Drawing.Point(706, 255);
+            this.pictureBox53.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(56, 56);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -957,6 +1002,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox52.Image = global::Snake_And_Ladder.Properties.Resources._51;
             this.pictureBox52.Location = new System.Drawing.Point(762, 255);
+            this.pictureBox52.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(56, 56);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -970,6 +1016,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox49.Image = global::Snake_And_Ladder.Properties.Resources._48;
             this.pictureBox49.Location = new System.Drawing.Point(762, 311);
+            this.pictureBox49.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(56, 56);
             this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -983,6 +1030,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox48.Image = global::Snake_And_Ladder.Properties.Resources._47;
             this.pictureBox48.Location = new System.Drawing.Point(706, 311);
+            this.pictureBox48.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(56, 56);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -996,6 +1044,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox47.Image = global::Snake_And_Ladder.Properties.Resources._46;
             this.pictureBox47.Location = new System.Drawing.Point(650, 311);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(56, 56);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1009,6 +1058,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox46.Image = global::Snake_And_Ladder.Properties.Resources._45;
             this.pictureBox46.Location = new System.Drawing.Point(594, 311);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(56, 56);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1022,6 +1072,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox45.Image = global::Snake_And_Ladder.Properties.Resources._44;
             this.pictureBox45.Location = new System.Drawing.Point(538, 311);
+            this.pictureBox45.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(56, 56);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1035,6 +1086,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox44.Image = global::Snake_And_Ladder.Properties.Resources._43;
             this.pictureBox44.Location = new System.Drawing.Point(482, 311);
+            this.pictureBox44.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(56, 56);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1048,6 +1100,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox43.Image = global::Snake_And_Ladder.Properties.Resources._42;
             this.pictureBox43.Location = new System.Drawing.Point(426, 311);
+            this.pictureBox43.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(56, 56);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1061,6 +1114,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox42.Image = global::Snake_And_Ladder.Properties.Resources._41;
             this.pictureBox42.Location = new System.Drawing.Point(370, 311);
+            this.pictureBox42.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(56, 56);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1074,6 +1128,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox41.Image = global::Snake_And_Ladder.Properties.Resources._40;
             this.pictureBox41.Location = new System.Drawing.Point(314, 311);
+            this.pictureBox41.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(56, 56);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1087,6 +1142,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox40.Image = global::Snake_And_Ladder.Properties.Resources._39;
             this.pictureBox40.Location = new System.Drawing.Point(314, 367);
+            this.pictureBox40.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(56, 56);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1100,6 +1156,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox39.Image = global::Snake_And_Ladder.Properties.Resources._38;
             this.pictureBox39.Location = new System.Drawing.Point(370, 367);
+            this.pictureBox39.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(56, 56);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1113,6 +1170,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox38.Image = global::Snake_And_Ladder.Properties.Resources._37;
             this.pictureBox38.Location = new System.Drawing.Point(426, 367);
+            this.pictureBox38.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(56, 56);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1126,6 +1184,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox37.Image = global::Snake_And_Ladder.Properties.Resources._36;
             this.pictureBox37.Location = new System.Drawing.Point(482, 367);
+            this.pictureBox37.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(56, 56);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1139,6 +1198,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox36.Image = global::Snake_And_Ladder.Properties.Resources._35;
             this.pictureBox36.Location = new System.Drawing.Point(538, 367);
+            this.pictureBox36.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(56, 56);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1152,6 +1212,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox35.Image = global::Snake_And_Ladder.Properties.Resources._34;
             this.pictureBox35.Location = new System.Drawing.Point(594, 367);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(56, 56);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1165,6 +1226,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox34.Image = global::Snake_And_Ladder.Properties.Resources._33;
             this.pictureBox34.Location = new System.Drawing.Point(650, 367);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(56, 56);
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1178,6 +1240,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox33.Image = global::Snake_And_Ladder.Properties.Resources._32;
             this.pictureBox33.Location = new System.Drawing.Point(706, 367);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(56, 56);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1191,6 +1254,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox32.Image = global::Snake_And_Ladder.Properties.Resources._31;
             this.pictureBox32.Location = new System.Drawing.Point(762, 367);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(56, 56);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1204,6 +1268,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox29.Image = global::Snake_And_Ladder.Properties.Resources._28;
             this.pictureBox29.Location = new System.Drawing.Point(762, 423);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(56, 56);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1217,6 +1282,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox28.Image = global::Snake_And_Ladder.Properties.Resources._27;
             this.pictureBox28.Location = new System.Drawing.Point(706, 423);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(56, 56);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1230,6 +1296,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox27.Image = global::Snake_And_Ladder.Properties.Resources._26;
             this.pictureBox27.Location = new System.Drawing.Point(650, 423);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(56, 56);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1243,6 +1310,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox26.Image = global::Snake_And_Ladder.Properties.Resources._25;
             this.pictureBox26.Location = new System.Drawing.Point(594, 423);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(56, 56);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1256,6 +1324,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox25.Image = global::Snake_And_Ladder.Properties.Resources._24;
             this.pictureBox25.Location = new System.Drawing.Point(538, 423);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(56, 56);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1269,6 +1338,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox24.Image = global::Snake_And_Ladder.Properties.Resources._23;
             this.pictureBox24.Location = new System.Drawing.Point(482, 423);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(56, 56);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1282,6 +1352,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox23.Image = global::Snake_And_Ladder.Properties.Resources._22;
             this.pictureBox23.Location = new System.Drawing.Point(426, 423);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(56, 56);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1295,6 +1366,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox22.Image = global::Snake_And_Ladder.Properties.Resources._21;
             this.pictureBox22.Location = new System.Drawing.Point(370, 423);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(56, 56);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1308,6 +1380,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox21.Image = global::Snake_And_Ladder.Properties.Resources._20;
             this.pictureBox21.Location = new System.Drawing.Point(314, 423);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(56, 56);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1321,6 +1394,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox20.Image = global::Snake_And_Ladder.Properties.Resources._19;
             this.pictureBox20.Location = new System.Drawing.Point(314, 479);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(56, 56);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1334,6 +1408,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox19.Image = global::Snake_And_Ladder.Properties.Resources._18;
             this.pictureBox19.Location = new System.Drawing.Point(370, 479);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(56, 56);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1347,6 +1422,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox18.Image = global::Snake_And_Ladder.Properties.Resources._17;
             this.pictureBox18.Location = new System.Drawing.Point(426, 479);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(56, 56);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1360,6 +1436,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox17.Image = global::Snake_And_Ladder.Properties.Resources._16;
             this.pictureBox17.Location = new System.Drawing.Point(482, 479);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(56, 56);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1373,6 +1450,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox16.Image = global::Snake_And_Ladder.Properties.Resources._15;
             this.pictureBox16.Location = new System.Drawing.Point(538, 479);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(56, 56);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1386,6 +1464,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox15.Image = global::Snake_And_Ladder.Properties.Resources._14;
             this.pictureBox15.Location = new System.Drawing.Point(594, 479);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(56, 56);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1399,6 +1478,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox14.Image = global::Snake_And_Ladder.Properties.Resources._13;
             this.pictureBox14.Location = new System.Drawing.Point(650, 479);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(56, 56);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1412,6 +1492,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox13.Image = global::Snake_And_Ladder.Properties.Resources._12;
             this.pictureBox13.Location = new System.Drawing.Point(706, 479);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(56, 56);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1425,6 +1506,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox12.Image = global::Snake_And_Ladder.Properties.Resources._11;
             this.pictureBox12.Location = new System.Drawing.Point(762, 479);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(56, 56);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1438,6 +1520,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox9.Image = global::Snake_And_Ladder.Properties.Resources._8;
             this.pictureBox9.Location = new System.Drawing.Point(762, 535);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(56, 56);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1451,6 +1534,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox8.Image = global::Snake_And_Ladder.Properties.Resources._7;
             this.pictureBox8.Location = new System.Drawing.Point(706, 535);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(56, 56);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1464,6 +1548,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox7.Image = global::Snake_And_Ladder.Properties.Resources._6;
             this.pictureBox7.Location = new System.Drawing.Point(650, 535);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(56, 56);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1477,6 +1562,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = global::Snake_And_Ladder.Properties.Resources._5;
             this.pictureBox6.Location = new System.Drawing.Point(594, 535);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(56, 56);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1490,6 +1576,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Image = global::Snake_And_Ladder.Properties.Resources._4;
             this.pictureBox5.Location = new System.Drawing.Point(538, 535);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(56, 56);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1503,6 +1590,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Image = global::Snake_And_Ladder.Properties.Resources._3;
             this.pictureBox4.Location = new System.Drawing.Point(482, 535);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(56, 56);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1516,6 +1604,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = global::Snake_And_Ladder.Properties.Resources._2;
             this.pictureBox3.Location = new System.Drawing.Point(426, 535);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(56, 56);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1529,6 +1618,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Snake_And_Ladder.Properties.Resources._1;
             this.pictureBox2.Location = new System.Drawing.Point(370, 535);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(56, 56);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1542,6 +1632,7 @@ namespace Snake_And_Ladder
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Snake_And_Ladder.Properties.Resources._0;
             this.pictureBox1.Location = new System.Drawing.Point(314, 535);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1709,7 +1800,8 @@ namespace Snake_And_Ladder
             // 
             this.pictPlayer.BackColor = System.Drawing.Color.Transparent;
             this.pictPlayer.Image = global::Snake_And_Ladder.Properties.Resources.player;
-            this.pictPlayer.Location = new System.Drawing.Point(376, 535);
+            this.pictPlayer.Location = new System.Drawing.Point(331, 543);
+            this.pictPlayer.Margin = new System.Windows.Forms.Padding(0);
             this.pictPlayer.Name = "pictPlayer";
             this.pictPlayer.Size = new System.Drawing.Size(24, 29);
             this.pictPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1720,7 +1812,7 @@ namespace Snake_And_Ladder
             // 
             this.pictEnemy.BackColor = System.Drawing.Color.Transparent;
             this.pictEnemy.Image = global::Snake_And_Ladder.Properties.Resources.opponent;
-            this.pictEnemy.Location = new System.Drawing.Point(314, 535);
+            this.pictEnemy.Location = new System.Drawing.Point(835, 543);
             this.pictEnemy.Name = "pictEnemy";
             this.pictEnemy.Size = new System.Drawing.Size(24, 29);
             this.pictEnemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1844,6 +1936,7 @@ namespace Snake_And_Ladder
             this.Controls.Add(this.pictureBox74);
             this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GameBoard";
             this.pnlScoreetc.ResumeLayout(false);
